@@ -9,7 +9,7 @@
     height: 100vh;
     padding: 20px 10%;
     transition: background-image 0.5s;
-    background-image: url(images/BMW1.png);
+    background-image: url(BMW1.png);
     background-size: cover;
     background-position: center;
     margin-top: -25%;
@@ -95,7 +95,7 @@ nav .btn{
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-    background-image:url(images/bmw-g-310-r-2018-f5.jpeg);
+    background-image:url(bmw-g-310-r-2018-f5.jpeg);
     padding: 30px 100px;
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ nav .btn{
     align-items: center;
    
     margin-top: -48px;
-    background-image: url(images/sliderr.png);
+    background-image: url(sliderr.png);
     
     
 }
@@ -262,7 +262,7 @@ nav .btn{
     background-color: #23e3c2;
 }
 .race1{
-    background-image: url(images/final.png);
+    background-image: url(final.png);
     position: relative;
     min-height: 100vh;
     background-position: center;
