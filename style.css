@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 10%;
+    transition: background-image 0.5s;
+    background-image: url(images/BMW1.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -25%;
+    
+}
+.container2{
+    margin-top: 2%;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 10%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 300px;
+    cursor: pointer;
+    
+}
+nav .btn{
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 15px 50px;
+    border-radius: 15px 50px;
+    border-radius: 30px;
+    margin-top: 0%;
+    margin-right: 0%;
+}
+.content{
+    margin-top: 3%;
+    text-align: center;
+}
+.content h2{
+    color: red;
+    font-size: 34px;
+}
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: 0px;
+}
+.content p{
+    font-weight:500;
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+}
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 0%;
+}
+.colour-select div{
+    
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.colour-select{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 43%;
+}
+.colour-select #red{
+    background: red;
+}
+.colour-select #blue{
+    background: blue;
+}
+.colour-select #black{
+    background: #000;
+}
+.main{
+    position: relative;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:url(images/bmw-g-310-r-2018-f5.jpeg);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:5%;
+}
+.main::before{
+    content: 'Adventure';
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 16vw;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.05)
+}
+.race{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    z-index: 1;
+}
+.race h2{
+    font-size: 5em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-left: 150%;
+}
+.race h2 span{
+    font-weight:700;
+    color: rgb(247, 136, 72);
+}
+.ride{
+    display: inline-block;
+    background-color: rgb(71, 71, 231);
+    color: white;
+    text-decoration: none;
+    padding: 16px 36px;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 1.25em;
+    transition: 0.25s;
+    margin-left: 150%;
+}
+.ride:hover{
+    letter-spacing: 4px;
+    background-color: blue;
+}
+-----------------
+.section{
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   
+    margin-top: -48px;
+    background-image: url(images/sliderr.png);
+    
+    
+}
+.slider{
+    width: 1440px;
+    height: 500px;
+    border-radius: 0px;
+    overflow: hidden;
+}
+.slide{
+    width: 4500px;
+    height: 500px;
+    display: flex;
+    
+}
+.slide input{
+    display: none;
+}
+.st{
+    width:20%;
+    transition: 2s;
+}
+.st iframe{
+    width: 900px;
+    height: 500px;
+}
+.nav-m{
+       position: absolute;
+       width: 800px;
+       margin-top: -40px;
+       justify-content: center;
+       display: flex;
+}
+.m-btn{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: #23e3c2;
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+#radio5:checked ~.first{
+    margin-left: -80%;
+}
+#radio6:checked ~.first{
+    margin-left: -100%;
+}
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color: #23e3c2;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+    background-color: #23e3c2;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+    background-color: #23e3c2;
+}
+#radio4:checked ~ .nav-auto .a-b4{
+    background-color: #23e3c2;
+}
+#radio5:checked ~ .nav-auto .a-b5{
+    background-color: #23e3c2;
+}
+#radio6:checked ~ .nav-auto .a-b6{
+    background-color: #23e3c2;
+}
+.race1{
+    background-image: url(images/final.png);
+    position: relative;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:5%;
+    
+}
+.ride1{
+    display: inline-block;
+    background-color: rgb(71, 71, 231);
+    color: white;
+    text-decoration: none;
+    padding: 16px 36px;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 1.25em;
+    transition: 0.25s;
+    margin-left: 92%;
+}
+.ride1:hover{
+    letter-spacing: 4px;
+    background-color: blue;
+}
+
